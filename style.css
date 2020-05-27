@@ -1,0 +1,20 @@
+body {
+	height: 100%;
+	background-color: #444; 
+	background: url('assets/screen/screen_artwork.png') center center no-repeat;
+	background: url('assets/screen/screen_artwork.png') center center no-repeat, -moz-linear-gradient(top, #4545CC, #5555FF);
+	background: url('assets/screen/screen_artwork.png') center center no-repeat, -webkit-gradient(linear, 0 0, 0 100%, from(#4545CC), to(#5555FF)); 
+	background: url('assets/screen/screen_artwork.png') center center no-repeat, -webkit-linear-gradient(top, #4545CC, #5555FF); 
+	background: url('assets/screen/screen_artwork.png') center center no-repeat, -o-linear-gradient(top, #4545CC, #5555FF);
+	background: url('assets/screen/screen_artwork.png') center center no-repeat, linear-gradient(to bottom, #4545CC, #5555FF);
+	background-attachment: fixed;
+}
+canvas {
+	display: block;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
